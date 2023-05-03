@@ -1,0 +1,381 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+@charset "utf-8";
+
+
+
+.nav-btn{
+    background-color: red;
+    border-radius: 8px;
+}
+.nav-btn:hover{
+    background-color: lightcoral;
+    transition: ease 0.5s;
+}
+
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+/*navbar*/
+.navbar2{
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+.nav-center{
+    width: 90vw;
+    max-width: var(--max-width);
+}
+.nav-header{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links
+{
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden; 
+    transition: ease-in-out 1s;
+    color: peru;
+}
+.nav-links a{
+    color: peru;
+    text-decoration: none;
+}
+.show-links{
+    height: 150px;
+}
+.nav-link{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    border-top: 1px solid gray;
+  }
+.nav-link:hover{
+    color: red;
+}
+/*footer*/
+.page-footer{
+    text-align: center;
+    background: red;
+    font-size: small;
+    color: peru;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    font-weight: bold;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+}
+.page-footer a {
+    color: peru;
+    text-decoration: none;
+}
+/* page */
+.page-1{
+    /* background: red; */
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 5rem));
+    text-align: center;
+   
+}
+.page-1 a{
+    font-weight: bold; 
+    color: peru;
+    text-decoration: none;
+    border: 1px solid red;
+    display: inline-block;
+    width: 135px;
+    background: red;
+    padding: 3.5px;
+    border-radius: 60px;
+}
+.page-1 a:hover{
+    background: lightcoral;
+}
+
+/*alltypebtn*/
+
+/*type*/
+.type-btn
+{
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    transition: ease 0.5s;
+    border: 2px solid peru;
+}
+.type-btn:hover{
+    width: 150px;
+    background-color: lightcoral;
+   
+
+}
+
+.tags-container{
+    position:relative ;
+}
+/*椒麻 */
+.spicy-chicken-list
+{
+    height: 30vh;
+    width: 300px;
+    background: url(/images/spicy\ chicken1.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+
+.spicy-chicken-list a{
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.spicy-chicken-list a:hover{
+    font-size: 300%;
+    
+}
+
+
+/*麻婆 */
+.spicy-dofu-list
+{
+    height: 30vh;
+    width: 300px;
+    background: url(/images/spicy-dofu.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+.spicy-dofu-list a{
+   position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.spicy-dofu-list a:hover{
+    font-size: 300%;
+}
+/*咖哩*/
+.curry-list
+{
+    height: 30vh;
+    width: 300px;
+    background: url(/images/curry.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+.curry-list a{
+   position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.curry-list a:hover{
+    font-size: 300%;
+}
+/*綠咖哩*/
+.green-curry-list
+{
+    height: 30vh;
+    width: 300px;
+    background: url(/images/green\ curry.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+.green-curry-list a{
+   position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.green-curry-list a:hover{
+    font-size: 300%;
+}
+/*丼飯*/
+.donburi-list
+{
+    height: 30vh;
+    width: 300px;
+    position: relative;
+    background: url(/images/donburi.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+.donburi-list a{
+   position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.donburi-list a:hover{
+    font-size: 300%;
+}
+/*烏龍麵*/
+.noodles-list
+{
+    height: 30vh;
+    width: 300px;
+    position: relative;
+    background: url(/images/noodles.jpg) center/cover no-repeat ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    position: relative;
+    display: grid;
+    border: 2px solid red;
+}
+.noodles-list a{
+   position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+    
+
+}
+.noodles-list a:hover{
+    font-size: 300%;
+}
+/*單點*/
+.single-dishs-list  
+{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 5rem));
+    text-align: center;
+}
+.single-dishes-list a{
+    font-weight: bold; 
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid peru;
+    display: inline-block;
+    width: 100px;
+    height: 10vh;
+    background: red;
+    padding: 3.5px;
+    border-radius: 6px;
+    font-size: 200%;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+}
+.single-dishes-list a:hover{
+    font-size: 300%;
+    width: 300px;
+    height: 20vh;
+}
+
+
+/*type-2*/
+.type2-button
+{
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    transition: ease 0.5s;
+    border: 2px solid peru;
+}
+.type2-button:hover{
+    width: 150px;
+    background-color: lightcoral;
+   
+
+}
+/*main-meal*/
+.main-meal{
+    border-bottom: 1px solid gray ;
+    font-weight: bold;
+    font-size: large;
+}
+.spicy-meals{
+    font-size: small;
+    font-weight: bold;
+}
+.spicy-meals a{
+    color: #000;
+    text-decoration: none;
+}
+.no-spicy-meals{
+    font-size: small;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.no-spicy-meals a{
+    color: #000;
+    text-decoration: none;
+}
+
+dialog{
+    border: none;
+    border-radius: 8px;
+}
+
